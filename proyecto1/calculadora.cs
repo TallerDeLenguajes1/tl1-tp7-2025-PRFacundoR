@@ -4,14 +4,13 @@ namespace proyecto1
 {
    public class Calculadora
     {
-        private float a, b;//campos =atributos privados, atributos son variables declaradas, metodos publicos
+        //private float a, b;//campos =atributos privados, atributos son variables declaradas, metodos publicos
         private double resultado=0;
         
-    
 
         public double Resultado
         {
-            get => resultado;//leer set es escribir
+            get => resultado;//leer un dato set es tomar un dato
         }
 
         public void Sumar(double termino)
@@ -32,7 +31,7 @@ namespace proyecto1
         {
             if (termino != 0)
             {
-                 resultado /= termino;
+                resultado /= termino;
             }
             else
             {
